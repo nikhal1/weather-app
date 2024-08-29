@@ -1,18 +1,55 @@
+/* Reset some default styling */
 body {
-    background-color: #f8f9fa;
-    font-family: Arial, sans-serif;
-}
-
-h1 {
-    font-size: 3rem;
-    color: #007bff;
-}
-
-#weatherResult {
-    font-size: 1.2rem;
-}
-
-#error {
-    font-size: 1.2rem;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5; /* Light gray background for a clean look */
+   
+  }
+  
+  .container {
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    max-width: 600px;
+    margin-top: 150px;
+  }
+  
+  h1 {
+    color: #333; /* Dark gray for the heading */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    position: relative;
+  }
+  
+  .form-control {
+    border-radius: 20px 0 0 20px; /* Rounded corners for the input field */
+    border: 1px solid #ced4da; /* Light border */
+  }
+  
+  .input-group-append .btn {
+    border-radius: 0 20px 20px 0; /* Rounded corners for the button */
+    border: 1px solid #ced4da; /* Match the input field border */
+    border-left: none; /* Remove left border to blend with input field */
+  }
+  
+  .input-group-append .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #0056b3; /* Match the border color on hover */
+  }
+  
+  #weatherResult {
+    background-color: #e9ecef; /* Light gray background for results */
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+  }
+  
+  #error {
+    font-size: 1rem;
     font-weight: bold;
-}
+  }
+  
